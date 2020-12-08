@@ -1,0 +1,23 @@
+{
+  "name": "@resir014/lerp",
+  "version": "0.0.0",
+  "description": "Simple linear interpolation.",
+  "repository": "https://github.com/resir014/stereo.git",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
+  "author": "Resi Respati <resir014@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
+    "test": "jest --env=jsdom",
+    "test:coverage": "jest --env=jsdom --coverage",
+    "type-check": "tsc --noEmit",
+    "validate": "yarn lint && yarn type-check"
+  },
+  "devDependencies": {}
+}

@@ -23,3 +23,4 @@ yarn workspace [package-name] run test
 ## Packages
 
 - [kait](packages/kait/README.md) - A list of personal reusable hooks.
+- [lerp](packages/lerp/README.md) - Simple linear interpolation.

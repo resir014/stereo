@@ -17,6 +17,7 @@
     "build": "microbundle",
     "dev": "microbundle watch",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
+    "prepublishOnly": "yarn build",
     "test": "jest --env=jsdom",
     "test:coverage": "jest --env=jsdom --coverage",
     "type-check": "tsc --noEmit",

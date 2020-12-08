@@ -28,6 +28,7 @@
   "scripts": {
     "build": "yarn workspaces run build",
     "lint": "yarn workspaces run lint",
+    "prepublish": "yarn build",
     "test": "yarn workspaces run test",
     "test:coverage": "yarn workspaces run test:coverage",
     "validate": "yarn workspaces run validate"

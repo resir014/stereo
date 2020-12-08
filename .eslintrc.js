@@ -8,10 +8,7 @@ module.exports = {
     'react/jsx-props-no-spreading': 'off',
     'prettier/prettier': 'error',
     'no-use-before-define': 'off',
-    '@typescript-eslint/no-use-before-define': [
-      'error',
-      { functions: true, classes: true, variables: true, type: true, interface: true, enum: true }
-    ]
+    '@typescript-eslint/no-use-before-define': ['error', { functions: true, classes: true, variables: true }]
   },
   overrides: [
     {

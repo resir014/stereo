@@ -1,0 +1,8 @@
+{
+  "extends": "../../tsconfig.project.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "jsx": "react"
+  }
+}

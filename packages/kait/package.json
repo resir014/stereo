@@ -1,0 +1,31 @@
+{
+  "name": "@resir014/kait",
+  "version": "0.0.0",
+  "description": "@resir014's personal reusable hooks.",
+  "repository": "https://github.com/resir014/stereo.git",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
+  "author": "Resi Respati <resir014@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
+    "test": "jest --env=jsdom",
+    "test:coverage": "jest --env=jsdom --coverage"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/react-hooks": "^3.4.2",
+    "@types/react": "^17.0.0",
+    "react": "^17.0.1",
+    "react-test-renderer": "^17.0.1"
+  }
+}

@@ -15,7 +15,9 @@
     "dev": "microbundle watch",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
     "test": "jest --env=jsdom",
-    "test:coverage": "jest --env=jsdom --coverage"
+    "test:coverage": "jest --env=jsdom --coverage",
+    "type-check": "tsc --noEmit",
+    "validate": "yarn lint && yarn type-check"
   },
   "devDependencies": {}
 }

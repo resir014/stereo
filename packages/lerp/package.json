@@ -10,6 +10,9 @@
   "types": "dist/index.d.ts",
   "author": "Resi Respati <resir014@gmail.com>",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",

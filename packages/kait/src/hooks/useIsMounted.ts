@@ -1,9 +1,9 @@
-import { useEffect, useRef, useCallback } from 'react'
+import { useEffect, useRef } from 'react'
 
 /**
  * Returns if the component the hook currently sits in is mounted or not.
  */
-export default function useIsMounted(): () => boolean {
+export default function useIsMounted(): React.MutableRefObject<boolean> {
   const ref = useRef(false)
 
   useEffect(() => {
@@ -14,5 +14,5 @@ export default function useIsMounted(): () => boolean {
     }
   }, [])
 
-  return useCallback(() => ref.current, [])
+  return ref
 }

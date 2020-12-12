@@ -23,5 +23,5 @@ yarn workspace [package-name] run test
 ## Packages
 
 - [chungking-react](packages/chungking-react) - Personal design system.
-- [kait](packages/kait/README.md) - A list of personal reusable hooks.
-- [lerp](packages/lerp/README.md) - Simple linear interpolation.
+- [kait](packages/kait) - A list of personal reusable hooks.
+- [lerp](packages/lerp) - Simple linear interpolation.

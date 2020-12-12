@@ -5,7 +5,7 @@ import Button from './Button'
 import { ButtonProps } from './types'
 
 export default {
-  title: 'Chungking Core/Button',
+  title: 'Components/Button',
   component: Button,
   argTypes: {
     size: {

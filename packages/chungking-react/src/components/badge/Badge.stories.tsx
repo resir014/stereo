@@ -4,7 +4,7 @@ import { Story, Meta } from '@storybook/react'
 import Badge, { BadgeProps } from './Badge'
 
 export default {
-  title: 'Chungking Core/Badge',
+  title: 'Components/Badge',
   component: Badge,
   argTypes: {
     variant: {

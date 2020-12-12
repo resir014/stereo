@@ -6,10 +6,12 @@ export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' }
 }
 
-export const decorators = [
-  (Story) => (
+const withThemeProvider = (Story: React.FC) => {
+  return (
     <ChungkingProvider>
       <Story />
     </ChungkingProvider>
   )
-]
+}
+
+export const decorators = [withThemeProvider]

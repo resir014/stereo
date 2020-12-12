@@ -5,7 +5,7 @@ import { colors, space } from '../../utils'
 import Card, { CardProps } from './Card'
 
 export default {
-  title: 'Chungking Core/Card',
+  title: 'Components/Card',
   component: Card,
   argTypes: {
     elevation: {

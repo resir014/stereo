@@ -4,7 +4,7 @@ import { Story, Meta } from '@storybook/react'
 import Iframe, { IframeProps } from './Iframe'
 
 export default {
-  title: 'Chungking Core/Iframe',
+  title: 'Components/Iframe',
   component: Iframe
 } as Meta<IframeProps>
 

@@ -5,7 +5,7 @@ import AnchorButton from './AnchorButton'
 import { AnchorButtonProps } from './types'
 
 export default {
-  title: 'Chungking Core/AnchorButton',
+  title: 'Components/AnchorButton',
   component: AnchorButton,
   argTypes: {
     size: {

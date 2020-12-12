@@ -5,7 +5,7 @@ import { ResponsiveWrapper } from '.'
 import ResponsiveIframe, { ResponsiveIframeProps } from './ResponsiveIframe'
 
 export default {
-  title: 'Chungking Core/ResponsiveIframe',
+  title: 'Components/ResponsiveIframe',
   component: ResponsiveIframe
 } as Meta<ResponsiveIframeProps>
 

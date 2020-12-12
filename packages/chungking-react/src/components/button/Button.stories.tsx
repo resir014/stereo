@@ -8,6 +8,12 @@ export default {
   title: 'Components/Button',
   component: Button,
   argTypes: {
+    variant: {
+      control: {
+        type: 'select',
+        options: ['default', 'primary', 'danger']
+      }
+    },
     size: {
       control: {
         type: 'select',
@@ -25,21 +31,9 @@ export default {
 
 const Template: Story<ButtonProps> = (args) => <Button {...args} />
 
-export const Primary = Template.bind({})
-Primary.args = {
-  variant: 'primary',
+export const Example = Template.bind({})
+Example.args = {
+  variant: 'default',
   size: 'md',
   children: 'Push Me'
-}
-
-export const Secondary = Template.bind({})
-Secondary.args = {
-  ...Primary.args,
-  variant: 'secondary'
-}
-
-export const Danger = Template.bind({})
-Danger.args = {
-  ...Primary.args,
-  variant: 'danger'
 }

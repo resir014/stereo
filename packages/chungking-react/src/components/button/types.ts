@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-export type ButtonVariant = 'primary' | 'secondary' | 'danger'
+export type ButtonVariant = 'default' | 'primary' | 'danger'
 
 export interface ButtonBaseProps {
   id?: string

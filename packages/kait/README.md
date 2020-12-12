@@ -54,7 +54,7 @@ function IsMountedExample() {
 
   React.useEffect(() => {
     fetchFromAPI().then((res) => {
-      if (isMounted()) {
+      if (isMounted.current) {
         setData(res)
       }
     })

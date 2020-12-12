@@ -1,6 +1,6 @@
 {
   "name": "@resir014/kait",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "@resir014's personal reusable hooks.",
   "repository": "https://github.com/resir014/stereo.git",
   "source": "src/index.ts",

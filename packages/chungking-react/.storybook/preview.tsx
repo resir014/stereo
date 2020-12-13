@@ -1,4 +1,3 @@
-// .storybook/preview.js
 import * as React from 'react'
 import { ChungkingProvider } from '../src'
 

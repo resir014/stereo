@@ -25,6 +25,7 @@
     "test:coverage": "jest --env=jsdom --coverage",
     "type-check": "tsc",
     "validate": "yarn lint && yarn type-check",
+    "chromatic": "chromatic",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -52,6 +53,7 @@
     "@storybook/react": "6.1.10",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
-    "babel-loader": "^8.2.2"
+    "babel-loader": "^8.2.2",
+    "chromatic": "^5.4.0"
   }
 }

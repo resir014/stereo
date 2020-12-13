@@ -77,7 +77,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '12'
-      - run: yarn workspace @resir014/chungking-react run chromatic --project-token=$CHROMATIC_PROJECT_TOKEN
+      - run: yarn workspace @resir014/chungking-react run chromatic --project-token=$CHROMATIC_PROJECT_TOKEN --exit-zero-on-changes
         env:
           CI: true
           CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}

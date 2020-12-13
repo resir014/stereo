@@ -3,10 +3,12 @@ on:
     branches: [trunk]
     paths:
       - 'packages/chungking-react/**'
+      - '.github/workflows/chungking-react-ci.yml'
   pull_request:
     types: [opened, synchronize]
     paths:
       - 'packages/chungking-react/**'
+      - '.github/workflows/chungking-react-ci.yml'
 
 name: chungking-react
 

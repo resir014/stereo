@@ -3,10 +3,12 @@ on:
     branches: [trunk]
     paths:
       - 'packages/kait/**'
+      - '.github/workflows/kait-ci.yml'
   pull_request:
     types: [opened, synchronize]
     paths:
       - 'packages/kait/**'
+      - '.github/workflows/kait-ci.yml'
 
 name: kait
 

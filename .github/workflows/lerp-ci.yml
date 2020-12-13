@@ -3,10 +3,12 @@ on:
     branches: [trunk]
     paths:
       - 'packages/lerp/**'
+      - '.github/workflows/lerp-ci.yml'
   pull_request:
     types: [opened, synchronize]
     paths:
       - 'packages/lerp/**'
+      - '.github/workflows/lerp-ci.yml'
 
 name: lerp
 

@@ -1,17 +1,18 @@
 import React from 'react'
 import { Story, Meta } from '@storybook/react'
 
-import ResponsiveIframe from './ResponsiveIframe'
 import ResponsiveWrapper, { ResponsiveWrapperProps } from './ResponsiveWrapper'
+import ResponsiveIframe from './ResponsiveIframe'
 
 export default {
-  title: 'Components/ResponsiveWrapper',
-  component: ResponsiveWrapper
+  title: 'Components/Iframe',
+  component: ResponsiveWrapper,
+  subcomponents: { ResponsiveIframe }
 } as Meta<ResponsiveWrapperProps>
 
-export const Example: Story<ResponsiveWrapperProps> = (args) => {
+export const Responsive: Story<ResponsiveWrapperProps> = (args) => {
   return (
-    <ResponsiveWrapper {...args}>
+    <ResponsiveWrapper width="100%" maxWidth={500} {...args}>
       <ResponsiveIframe
         src="https://www.youtube-nocookie.com/embed/P_mQpbCSQOo"
         frameBorder={0}
@@ -22,8 +23,6 @@ export const Example: Story<ResponsiveWrapperProps> = (args) => {
   )
 }
 
-Example.args = {
-  width: '100%',
-  maxWidth: 500,
+Responsive.args = {
   ratio: 16 / 9
 }

@@ -1,6 +1,2 @@
 export { default as Iframe } from './Iframe'
 export * from './Iframe'
-export { default as ResponsiveIframe } from './ResponsiveIframe'
-export * from './ResponsiveIframe'
-export { default as ResponsiveWrapper } from './ResponsiveWrapper'
-export * from './ResponsiveWrapper'

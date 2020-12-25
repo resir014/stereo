@@ -1,3 +1,4 @@
+/* eslint-disable import/prefer-default-export */
 export const pseudoSelectors = {
   _hover: '&:hover',
   _active: '&:active, &[data-active=true]',
